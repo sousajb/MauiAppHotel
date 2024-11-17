@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             Title="Sobre">
+    <StackLayout Padding="20">
+        <Label Text="Sobre o Aplicativo"
+               FontSize="24"
+               HorizontalOptions="Center" />
+        <Label Text="Desenvolvedor: João Batista Ferreira de Sousa"
+               FontSize="18"
+               HorizontalOptions="Center" />
+        <Label Text="Ano de Desenvolvimento: 2024"
+               FontSize="18"
+               HorizontalOptions="Center" />
+        <Label Text="Este aplicativo foi desenvolvido para demonstrar o uso do .NET MAUI. para o Curso Técnico da ETEC"
+               FontSize="16"
+               HorizontalOptions="Center"
+               Margin="0,20,0,0" />
+    </StackLayout>
+</ContentPage>
