@@ -13,12 +13,14 @@
         <Label Text="Cálculo da Diária"
                FontFamily="Poppins"
                FontSize="30"
-               TextColor="{StaticResource Primary}" />
+              TextColor="OrangeRed" />
         
         <Button Text="Sobre"
         Clicked="OnSobreButtonClicked"
         HorizontalOptions="Center"
-        VerticalOptions="End" />
+        VerticalOptions="End" 
+               BackgroundColor="Chocolate"
+                />
         
         <Frame Padding="10">
             <VerticalStackLayout>
@@ -29,7 +31,7 @@
                            Text="Adultos:" />
 
                     <Label Grid.Row="0" Grid.Column="1"
-                           TextColor="{StaticResource Primary}"
+                      TextColor="Indigo"
                            Text="{Binding Value}"
                            BindingContext="{x:Reference stp_adultos}"/>
 
