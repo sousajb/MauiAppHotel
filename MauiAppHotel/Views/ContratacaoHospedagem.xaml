@@ -11,8 +11,8 @@
                          Spacing="10">
 
         <Label Text="Cálculo da Diária"
-               FontFamily="Kalam"
-               FontSize="50"
+               FontFamily="Poppins"
+               FontSize="30"
                TextColor="{StaticResource Primary}" />
         
         <Button Text="Sobre"

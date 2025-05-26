@@ -6,11 +6,14 @@
     <StackLayout Padding="20">
         <Label Text="Sobre o Aplicativo"
                FontSize="24"
-               HorizontalOptions="Center" />
+               HorizontalOptions="Center"
+               FontFamily="poppins"
+               />
         <Label Text="Desenvolvedor: João Batista Ferreira de Sousa"
                FontSize="18"
-               HorizontalOptions="Center" />
-        <Label Text="Ano de Desenvolvimento: 2024"
+               HorizontalOptions="Center" 
+               FontFamily="poppins"/>
+        <Label Text="Ano de Desenvolvimento: 2025"
                FontSize="18"
                HorizontalOptions="Center" />
         <Label Text="Este aplicativo foi desenvolvido para demonstrar o uso do .NET MAUI. para o Curso Técnico da ETEC"
